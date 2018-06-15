@@ -11,7 +11,7 @@ if (character) {
 	if (keyboard_check_pressed(vk_left) && move > 0) {
 		move--;
 	}
-	else if (keyboard_check_pressed(vk_right) && move < array_length_1d(c_text)) {
+	else if (keyboard_check_pressed(vk_right) && move < array_length_1d(c_text) - 1) {
 		move++;
 	}
 }
@@ -19,7 +19,7 @@ if (instructions) {
 	if (keyboard_check_pressed(vk_left) && move > 0) {
 		move--;
 	}
-	else if (keyboard_check_pressed(vk_right) && move < 4) { //number of instructions pages
+	else if (keyboard_check_pressed(vk_right) && move < 3) { //number of instructions pages
 		move++;
 	}
 }
@@ -38,3 +38,7 @@ if (keyboard_check_pressed(vk_escape) || mouse_check_button(mb_left)) {
 		menu = true;
 	}
 }
+
+if (keyboard_check_pressed(ord("M"))) {
+	audio_sound_gain(global.bgm, 0, 30);
+}	

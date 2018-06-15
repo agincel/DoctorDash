@@ -1,26 +1,21 @@
 /// @description Pause Menu
 display_set_gui_size(view_wport[0], view_hport[0]);
-
+draw_set_halign(fa_left);
 if (pause == true) {
-draw_sprite_ext(screenshot,0,0,0,1,1,0,c_white,1);
-draw_sprite(pause_post_it,1,room_width * 0.5,room_height * 0.5);
-image_xscale = 1.5;
-image_yscale=1.5;
-draw_set_font(menu_font);
-draw_set_color(c_black);
-draw_text(room_width * 0.5 - 100,room_height * 0.5+60,"Continue");
-draw_text(room_width * 0.5 - 100,room_height * 0.5 + 160,"Exit");
-draw_text(room_width * 0.5 - 100,room_height * 0.5 + 260,"Fullscreen");
-	if (move==0) {
-		draw_sprite(cursor,1,room_width * 0.5 - 150,room_height * 0.5 + 100);
-	}
-	else if (move==1) {
-		draw_sprite (cursor,1,room_width * 0.5 - 150,room_height * 0.5 +200);
-	}
-	else if (move==2) {
-		draw_sprite (cursor,1,room_width * 0.5 - 150,room_height * 0.5 +300);
-	}
+	draw_sprite_ext(screenshot,0,0,0,1,1,0,c_white,1);
+	draw_sprite(pause_post_it, 1, room_width * 0.5, room_height * 0.5);
+	image_xscale = 1.5;
+	image_yscale = 1.5;
 	
+	draw_set_font(menu_font);
+	
+	draw_set_color(c_black);
+	
+	draw_text(room_width * 0.5 - 100,room_height * 0.5+60,"Continue");
+	draw_text(room_width * 0.5 - 100,room_height * 0.5 + 160,"Exit");
+	draw_text(room_width * 0.5 - 100,room_height * 0.5 + 260,"Fullscreen");
+
+	draw_sprite(cursor, 1, room_width * 0.5 - 150, room_height * 0.5 + 100 + (100 * move));
 }
 
 if (end_screen_1 = true) {

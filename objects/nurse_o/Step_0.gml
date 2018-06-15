@@ -1,3 +1,2 @@
-if (slotted_n == false) {
-depth = -y;
-}
+
+event_inherited();

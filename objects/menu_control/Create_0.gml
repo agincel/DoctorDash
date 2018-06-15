@@ -17,7 +17,8 @@ c_text[1] = "Sam is the only surgeon on the team and is 35 years old. She has a 
 c_text[2] ="Alistair is 26 years old and grew up in Vermont. He has just recently moved to the area and has also recently started working at UCLA Medical Center. He is a little bit of an introvert who is still trying to get used to the West Coast and warm weather. Alistair is known for having a sweet tooth and stops at the bakery every morning to grab a crumb-cake for himself and donuts for the rest of the staff. However, his sweet tooth doesn’t carry over into a soft spot for people. He is usually skeptical of everyone around him, but his analytical mindset greatly helps him in being a nurse.";
 c_text[3] = "Monica is the most social of the group at the hospital. She started working at UCLA Medical Center a few years ago and can gossip better than she can treat a patient. She has a fun personality that is kept alive with her cup of black coffee and Boston Creme donut every morning. Although a wonderful and vibrant 45 year old, she doesn’t always handle stress very well. She usually leaves high stress situations for Alistair and the rest of the staff.";
 
-audio_play_sound(Project_Music,100,true);
+audio_stop_all();
+global.bgm = audio_play_sound(Project_Music,100,true);
 
 global.total_patients_saved = 0;
 global.total_patients_lost = 0;

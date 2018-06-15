@@ -12,3 +12,8 @@ else {
 	audio_play_sound(Death_Effect_sound,1,false);
 }
 
+event_user(0);
+
+if (inhabitedBed) {
+	inhabitedBed.occupant = noone;
+}

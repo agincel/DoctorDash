@@ -1,3 +1,6 @@
+
+event_inherited();
+type = types.patient;
 image_xscale = 0.20;
 image_yscale = 0.20;
 event_inherited();
@@ -5,6 +8,8 @@ image_speed = 1;
 frame = 0;
 in_bed = false;
 patient_in = false;
+
+inhabitedBed = noone;
 
 if (global.wave == 1) {
 patient_type = choose (2,2,2,2,2,2,2,2,1,1); //ADD IN THE ROOM VARIATIONS HERE FOR PERCENTAGES

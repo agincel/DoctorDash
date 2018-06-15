@@ -1,3 +1,7 @@
+
+event_inherited();
+type = types.doctor;
+
 if (doctor_id==1){
 	sprite_index=luke_s;
 }
@@ -13,9 +17,10 @@ else if (doctor_id == 4) {
 
 image_xscale = 0.40;
 image_yscale = 0.40;
-event_inherited();
 
 in_bed = false;
 by_bed = false;
+
+inhabitedSlot = noone;
 
 slotted = false;

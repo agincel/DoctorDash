@@ -1,10 +1,13 @@
+
+event_inherited();
+
 if (death_countdown <= 0){
 	instance_destroy();
 }
 if (heal_countdown <= 0) {
 	instance_destroy();
 }
-if (in_bed == true && instance_position(closest_bed.x,closest_bed.y+closest_bed.sprite_height * 0.1,closest_bed)) {
+if (inhabitedBed != noone) {
 		if (being_healed == false && healing_paused == false) {
 			death_speed = 0.5;
 			death_timer += death_speed;
@@ -41,8 +44,6 @@ if (death_timer > death_capacity) {
 }
 
 
-
-
-//(closest_bed.doctor_occupancy >= 2 || closest_bed.doctor_occupancy >= 1 && closest_bed.nurse_occupancy >= 1)
-//(closest_bed.doctor_occupancy >= 1 || closest_bed.nurse_occupancy >= 1)
-
+if (keyboard_check_pressed(ord("K"))) {
+	instance_destroy();
+}

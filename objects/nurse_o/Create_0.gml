@@ -1,4 +1,10 @@
 /// @description Creation
+
+event_inherited();
+type = types.nurse;
+inhabitedSlot = noone;
+
+
 if (nurse_id==1){
 	sprite_index=alistair_s;
 }
@@ -13,6 +19,5 @@ image_xscale = 0.40;
 image_yscale = 0.40;
 
 in_bed = false;
-event_inherited();
 
 slotted_n = false;
