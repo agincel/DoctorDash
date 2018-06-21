@@ -77,3 +77,7 @@ else {
 if (keyboard_check_pressed(ord("S"))) {
 	spawncounter = spawnfinal;
 }
+
+if (keyboard_check_pressed(ord("T"))) {
+	load_speech("test.json");
+}

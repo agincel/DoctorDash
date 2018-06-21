@@ -44,9 +44,35 @@
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "layer_held",
+            "id": "6b5fbf8d-23dd-44f6-8651-06febf418ed5",
+            "depth": 0,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "layer_patients",
             "id": "9f744b1a-ea80-416f-b19a-3d90b9e74451",
-            "depth": 0,
+            "depth": 100,
             "grid_x": 10,
             "grid_y": 10,
             "hierarchyFrozen": false,
@@ -78,7 +104,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Beds",
             "id": "27cf5507-843d-4988-98d8-b4322297f35c",
-            "depth": 100,
+            "depth": 200,
             "grid_x": 5,
             "grid_y": 5,
             "hierarchyFrozen": false,
@@ -128,7 +154,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Spots",
             "id": "6bcc9e4e-3cde-492d-9f65-b0182a730c54",
-            "depth": 200,
+            "depth": 300,
             "grid_x": 2,
             "grid_y": 2,
             "hierarchyFrozen": false,
@@ -183,7 +209,7 @@
 {"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_4FB989E","id": "9fef8e9b-98a8-4148-a02c-41a78475383c","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 0.6875,"scaleY": 0.7166667,"mvc": "1.0","spriteId": "4aa2aabb-ce5a-4fb1-808a-c71f4a9c0f79","userdefined_animFPS": false,"x": 1170,"y": 450},
 {"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_79F6B9EB","id": "15bcefca-f63c-4895-95e4-d9d36b492a9e","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 0.6875,"scaleY": 0.7166667,"mvc": "1.0","spriteId": "4aa2aabb-ce5a-4fb1-808a-c71f4a9c0f79","userdefined_animFPS": false,"x": 1410,"y": 445}
             ],
-            "depth": 300,
+            "depth": 400,
             "grid_x": 5,
             "grid_y": 5,
             "hierarchyFrozen": false,
@@ -209,7 +235,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4294967295 },
-            "depth": 400,
+            "depth": 500,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,

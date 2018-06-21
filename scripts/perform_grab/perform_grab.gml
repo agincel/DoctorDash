@@ -5,7 +5,8 @@ with (drag_o) {
 	if (checkGrab && (grabbed == noone || y > grabbed.y)) {
 			grabbed = id;
 	}
-	checkGrab = false;
+	if (checkGrab)
+		checkGrab = false;
 }
 
 if (grabbed != noone) {

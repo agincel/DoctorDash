@@ -3,6 +3,7 @@
 if (isHeld) {
 	x = mouse_x;
 	y = mouse_y;
+	layer = layer_get_id("layer_patients");	
 	if (mouse_check_button_released(mb_left)) {
 		isHeld = false;
 		

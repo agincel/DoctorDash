@@ -12,10 +12,14 @@ if (type == types.patient) {
 		inhabitedBed = noone;
 		*/
 		isHeld = false; //remove if you want removal from bed
+	} else {
+		layer = layer_get_id("layer_held");	
 	}
 } else {
 	if (inhabitedSlot) {
 		inhabitedSlot.my_doctor = noone;
 		inhabitedSlot.my_bed.slot[inhabitedSlot.mySlot] = noone;
+		inhabitedSlot = noone;
+		layer = layer_get_id("layer_held");	
 	}
 }
