@@ -17,7 +17,7 @@ draw_set_valign(fa_top);
 
 draw_text_ext(startX, startY, displayString, 28, sprite_get_width(sprite_index) - (margin_side * 2));
 name = !is_undefined(a.name) ? a.name : name;
-
+/*
 if (!is_undefined(a.name) && a.name != "-1" && a.name != -1 && !(textComplete && a.type == "choice" && array_length_1d(arr) == 1)) {
 	//draw name
 	var cX = bbox_right - sprite_get_width(spr_name_box) / 2 - 75;
@@ -32,7 +32,7 @@ if (!is_undefined(a.name) && a.name != "-1" && a.name != -1 && !(textComplete &&
 } else if (!(textComplete && a.type == "choice" && array_length_1d(arr) == 1) && a.name != "-1" && a.name != -1) {
 	draw_sprite(spr_name_box, 0, bbox_right - sprite_get_width(spr_name_box) / 2, bbox_top);
 }
-
+*/
 
 portrait = asset_get_index(!is_undefined(a.portrait) ? a.portrait : "");
 

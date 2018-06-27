@@ -23,4 +23,4 @@ global.bgm = audio_play_sound(Project_Music,100,true);
 global.total_patients_saved = 0;
 global.total_patients_lost = 0;
 
-credits_text = "Credits:\nDaniel Stuart\nKatherine Bryant\nSam Martino\nWill Grzybowski\nAdam Gincel\n------\nAlex Wellerstein\nNicholas O'Brien";
+credits_text = "Credits:\nKatherine Bryant\nAdam Gincel\nWill Grzybowski\nSam Martino\nMax Rizzuto\nDaniel Stuart\nRobyn Verrill\n------\nNicholas O'Brien\nAlex Wellerstein\n";

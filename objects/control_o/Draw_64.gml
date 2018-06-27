@@ -19,7 +19,7 @@ if (pause == true) {
 }
 
 if (end_screen_show[0]) {
-	draw_sprite(nuke_scene, 0, 0, 0);
+	draw_sprite_ext(spr_cutscene, cutscene_frame, 0, 0, 2, 2, 0, c_white, 1);
 }
 else if (end_screen_show[1]) {
 	draw_sprite(end_screen,1,room_width*0.5,room_height*0.5);

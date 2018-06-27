@@ -1,6 +1,5 @@
 /// @description Insert description here
 event_inherited();
-draw_self();
 var str = "";
 if (patient_type == 2) {
 	str += "Minor";
@@ -48,6 +47,8 @@ if (patient_type == 0){
 		image_blend = make_color_hsv(0, 255, 70);
 	}
 }
+if (sprite_index)
+	draw_self();
 draw_set_font(fnt_injury_type);
 draw_set_halign(fa_center);
 draw_text_shadow(x, y + 80, str, c_white, c_black, 1);

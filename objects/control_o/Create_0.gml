@@ -32,3 +32,5 @@ will = false;
 katie = true;
 next = true;
 nexto = false;
+
+cutscene_frame = 0;
