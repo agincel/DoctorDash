@@ -5,7 +5,7 @@ forceType = -1;
 
 timeToSpawn[0] = -1; //don't actually spawn things, it's the tutorial.
 timeToSpawn[1] = 135;
-timeToSpawn[2] = 115;
+timeToSpawn[2] = 140;
 timeToSpawn[3] = 110;
 
 spawnQuantity[0] = 5; //tutorial

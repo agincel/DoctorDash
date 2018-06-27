@@ -18,7 +18,8 @@ else if (global.wave == 1) {
 	patient_type = choose (2,2,2,2,2,2,2,2,1,1); //ADD IN THE ROOM VARIATIONS HERE FOR PERCENTAGES
 }
 else if (global.wave == 2) {
-	patient_type = choose (2,2,2,1,0,1,1,1,1,1);
+	show_debug_message("creating patient in wave 2");
+	patient_type = choose (2, 2, 2, 1, 1, 2, 0);
 }
 else if (global.wave == 3) {
 	patient_type = choose (2,2,1,1,1,1,0,0,0,0);

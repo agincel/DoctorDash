@@ -18,10 +18,8 @@ if (pause == true) {
 	draw_sprite(cursor, 1, room_width * 0.5 - 150, room_height * 0.5 + 100 + (100 * move));
 }
 
-if (end_screen_show[0]) {
-	draw_sprite_ext(spr_cutscene, cutscene_frame, 0, 0, 2, 2, 0, c_white, 1);
-}
-else if (end_screen_show[1]) {
+
+if (end_screen_show[1]) {
 	draw_sprite(end_screen,1,room_width*0.5,room_height*0.5);
 	draw_sprite(jenn_large,1,115,1020);
 	

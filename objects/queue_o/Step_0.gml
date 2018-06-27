@@ -20,10 +20,6 @@ if (keyboard_check_pressed(ord("S")) && (room == Hospital_Tutorial || keyboard_c
 	}
 }
 
-if (keyboard_check_pressed(ord("T"))) {
-	load_conversation("test.json");
-}
-
 //End of Game Shit
 if (global.total == spawnQuantity[global.wave]) {
 	control_o.end_screen_show[global.wave] = true;
