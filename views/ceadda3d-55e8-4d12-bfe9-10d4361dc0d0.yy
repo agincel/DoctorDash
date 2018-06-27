@@ -10,7 +10,8 @@
         "e22569f9-b631-4a93-af35-806137dd4a68",
         "7160d9f2-f593-4102-b3e1-1bf9b69002b8",
         "30788498-1355-41ac-a238-435951320fe5",
-        "859f796d-e421-42d8-ac7c-f60c5026248a"
+        "859f796d-e421-42d8-ac7c-f60c5026248a",
+        "8f365b9a-4ca2-40cf-bb69-64f0bb8e70bb"
     ],
     "filterType": "GMSprite",
     "folderName": "Screens",

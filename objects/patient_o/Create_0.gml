@@ -11,8 +11,11 @@ patient_in = false;
 
 inhabitedBed = noone;
 
-if (global.wave == 1) {
-patient_type = choose (2,2,2,2,2,2,2,2,1,1); //ADD IN THE ROOM VARIATIONS HERE FOR PERCENTAGES
+if (global.wave == 0) {
+	patient_type = 2;
+}
+else if (global.wave == 1) {
+	patient_type = choose (2,2,2,2,2,2,2,2,1,1); //ADD IN THE ROOM VARIATIONS HERE FOR PERCENTAGES
 }
 else if (global.wave == 2) {
 	patient_type = choose (2,2,2,0,0,1,1,1,1,1);

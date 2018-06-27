@@ -35,30 +35,6 @@ if (pause == true){
 	}
 }
 
-//End of Game Shit
-if (global.wave == 1 && global.total == 20) {
-	instance_deactivate_all(true);
-	global.total = 0;
-	global.wave = 2;
-	end_screen_1 = true;
-	audio_play_sound(Marker_Scribble,1,false);
-}
-
-else if (global.wave == 2 && global.total == 30) {
-	instance_deactivate_all(true);
-	global.total = 0;
-	global.wave = 2;
-	end_screen_2 = true;
-	audio_play_sound(Marker_Scribble,1,false);
-}
-else if (global.wave == 3 && global.total == 50) {
-	instance_deactivate_all(true);
-	global.total = 0;
-	global.wave = 3;
-	end_screen3 = true;
-	audio_play_sound(Marker_Scribble,1,false);
-}
-
-if (end_screen_2 == true & will == true && katie == false && keyboard_check_pressed(vk_enter)) {
+if (end_screen_show[2] == true & will == true && katie == false && (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) || device_mouse_check_button_pressed(0, mb_left))) {
 	nexto = true;
 }

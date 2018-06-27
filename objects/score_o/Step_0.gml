@@ -1,1 +1,1 @@
-global.total =global.patients_saved + global.death_count;
+global.total = global.patients_saved + global.death_count;

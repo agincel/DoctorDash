@@ -2,7 +2,8 @@
 
 if (menu) {
 	if (move == 0) {
-		room_goto(asset_get_index("Hospital"));
+		global.wave = 0;
+		room_goto_next();
 	}
 	else if (move==1) {
 	character = true;

@@ -18,7 +18,10 @@ if (pause == true) {
 	draw_sprite(cursor, 1, room_width * 0.5 - 150, room_height * 0.5 + 100 + (100 * move));
 }
 
-if (end_screen_1 = true) {
+if (end_screen_show[0]) {
+	draw_sprite(nuke_scene, 0, 0, 0);
+}
+else if (end_screen_show[1]) {
 	draw_sprite(end_screen,1,room_width*0.5,room_height*0.5);
 	draw_sprite(jenn_large,1,115,1020);
 	
@@ -43,7 +46,7 @@ if (end_screen_1 = true) {
 	draw_set_color(c_black);
 	draw_text_ext(320,460,text_jenn,45,650);
 }
-else if (end_screen_2 = true) {
+else if (end_screen_show[2]) {
 	draw_sprite(end_screen_3,1,room_width*0.5,room_height*0.5);
 	
 	draw_set_font(end_font);
@@ -82,7 +85,7 @@ else if (end_screen_2 = true) {
 		draw_text_ext(320,460,text_will,45,650);
 	}	
 }
-else if (end_screen3 = true) {
+else if (end_screen_show[3]) {
 	draw_sprite(end_screen2,1,room_width*0.5,room_height*0.5);
 	
 	draw_set_font(end_font);

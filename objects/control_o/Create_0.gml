@@ -19,6 +19,10 @@ screenshot = -1;
 end_screen_1 = false;
 end_screen_2 = false;
 end_screen3 = false;
+end_screen_show[1] = false;
+end_screen_show[2] = false;
+end_screen_show[3] = false;
+
 
 text_jenn = "Jenn is the 25 year old lovable best friend of the hospital. She gives lollipops to kids who break their arms and console the loved ones of incredibly sick patients. Jenn absolutely loves her job and almost never comes to work without a smile on her face. This might also have to do with her crush on a certain broody nurse that works in the ER, but how she feels never affects how hard she works in the hospital. She is also incredibly smart and can give you information on anything from why the sky is blue to how to make a perfect batch of chocolate chip cookies.";
 text_katie = "Katie is the 37 year old lifesaver. She is the surgeon that answers phone calls at all hours of the night to come in and help patients. Of course, for her being up until three in the morning is normal as long as she has her sketchpad and a little inspiration. With all of these night calls she is not someone to wake at early hours of the morning. Some sweets may tempt her to get up.";

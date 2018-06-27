@@ -3,6 +3,7 @@
 isHeld = true;
 
 if (type == types.patient) {
+	remove_from_queue(id);
 	if (inhabitedBed) {
 		/*
 		//uncomment this to enable removal from bed
