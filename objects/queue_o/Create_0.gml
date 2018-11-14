@@ -14,7 +14,8 @@ spawnQuantity[2] = 30;
 spawnQuantity[3] = 50;
 
 spawned = 0;
-active = true;
+active = false;
+alarm[0] = 200; //time to setup
 
 spawnTime = 0;
 

@@ -4,7 +4,15 @@ if (menu) {
 	draw_set_font(fixed_menufont);
 	draw_set_color(c_black);
 	for (var i = 0; i < array_length_1d(menu_options); i++) {
-		draw_text(500, 580 + (80 * i), menu_options[i]);	
+		var str = menu_options[i];
+		if (i == 3) {
+			if (settingIndex == 0) {
+				str += "Fullscreen >: " + (global.fullscreen ? "On" : "Off");
+			} else if (settingIndex == 1) {
+				str += "Labels >: " + (global.label ? "On" : "Off");
+			}
+		}
+		draw_text(500, 580 + (80 * i), str);	
 	}
 
 	draw_sprite(cursor, 1, 450, 600 + (82 * move));

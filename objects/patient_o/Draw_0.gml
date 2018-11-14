@@ -47,11 +47,17 @@ if (patient_type == 0){
 		image_blend = make_color_hsv(0, 255, 70);
 	}
 }
-if (sprite_index)
+if (sprite_index) {
 	draw_self();
-draw_set_font(fnt_injury_type);
-draw_set_halign(fa_center);
-draw_text_shadow(x, y + 80, str, c_white, c_black, 1);
+} else if (patient_type == 0 && didInit) {
+	sprite_index = S_Patient; //hacky but idgaf	
+}
+
+if (global.label) {
+	draw_set_font(fnt_injury_type);
+	draw_set_halign(fa_center);
+	draw_text_shadow(x, y + 80, str, c_white, c_black, 1);
+}
 
 if (being_healed) {
 	draw_sprite(Clock_S,frame,inhabitedBed.x,y-130);	

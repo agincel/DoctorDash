@@ -14,13 +14,17 @@ if (menu) {
 		game_end();
 	}
 	else if (move==3) {
-		if (global.fullscreen == false) {
-			window_set_fullscreen(true);
-			global.fullscreen = true;
-		}
-		else {
-			window_set_fullscreen(false);
-			global.fullscreen = false;
+		if (settingIndex == 0) {
+			if (global.fullscreen == false) {
+				window_set_fullscreen(true);
+				global.fullscreen = true;
+			}
+			else {
+				window_set_fullscreen(false);
+				global.fullscreen = false;
+			}
+		} else if (settingIndex == 1) {
+			global.label = !global.label;	
 		}
 	}
 	else if (move == 4) {

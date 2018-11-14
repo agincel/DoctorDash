@@ -19,14 +19,17 @@ screenshot = -1;
 end_screen_1 = false;
 end_screen_2 = false;
 end_screen3 = false;
+
+alarmEnd = false;
+
 end_screen_show[1] = false;
 end_screen_show[2] = false;
 end_screen_show[3] = false;
 
 
-text_jenn = "Jenn is the 25 year old lovable best friend of the hospital. She gives lollipops to kids who break their arms and console the loved ones of incredibly sick patients. Jenn absolutely loves her job and almost never comes to work without a smile on her face. This might also have to do with her crush on a certain broody nurse that works in the ER, but how she feels never affects how hard she works in the hospital. She is also incredibly smart and can give you information on anything from why the sky is blue to how to make a perfect batch of chocolate chip cookies.";
-text_katie = "Katie is the 37 year old lifesaver. She is the surgeon that answers phone calls at all hours of the night to come in and help patients. Of course, for her being up until three in the morning is normal as long as she has her sketchpad and a little inspiration. With all of these night calls she is not someone to wake at early hours of the morning. Some sweets may tempt her to get up.";
-text_will = "Will is a temporary doctor in the hospital and is 28 years old. He was in fairly close range to the blast and his legs were crushed, leaving doctors at UCLA to have to amputate them. After a little bit of recovery time he decided to join the team that helped save his life. Will is of enormous help as days go by and more and more patients are brought into the hospital. He has a big heart, especially with children and anyone incredibly sick or injured. He is also the jokester of the staff and attempts to keep the spirits of the other doctors and nurses up.";
+text_jenn = "Jenn is a young and ambitious nurse and a dear friend of the hospital. She hasn’t worked at the hospital for long, but has made a great impression on the staff and patients alike. Before the events of today, Jenn’s friendly and familiar smile charmed all who passed through the hospital’s doors. Known as the nurse with lollipops and a skip in her step, Jenn rushed to the hospital after the blast. Upon her arrival, she was greeted by an overwhelmed staff and dozens of wounded survivors. It is safe to say her smile did not endure.";
+text_katie = "Dr. Chadwick is the face of experience and devotion at her hospital and is second to none among her colleagues. Dr. Chadwick is the kind surgeon that answers the phone at any hour to come and help patients. Dr.Chadwick lives by a code, to help anyone who needs treatment. She found herself working at the UCLA Medical Center after the blast to aid the understaffed hospital and to help treat the wounded hoards.";
+text_will = "Dr. Slotin made his way to the hospital on a stretcher after a roof collapsed on him following the blast. Now confined to a wheelchair at the loss of his legs and managing his own worsening condition, Dr. Slotin has recruited himself to aid the overburdened UCLA staff in treating those who cannot help themselves. Afterall, he cannot just sit idly by while there are scores of people worse off than him.";
 
 will = false;
 katie = true;

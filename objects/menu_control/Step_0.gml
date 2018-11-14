@@ -6,6 +6,10 @@ if (menu) {
 	else if (keyboard_check_pressed(vk_down) && move < array_length_1d(menu_options) - 1) {
 		move++;
 	}
+	
+	if (move == 3 && (keyboard_check_pressed(vk_right) || keyboard_check_pressed(vk_left))) {
+		settingIndex = (settingIndex + 1) % 2;
+	}
 }
 if (character) {
 	if (keyboard_check_pressed(vk_left) && move > 0) {

@@ -1,4 +1,4 @@
 [{"type":"plain","textWait":"2","endScript":"force_spawn_moderate","endFile":"-1"},{"name":"Sam","portraitType":"left","portrait":"port_sam",
-"text":"Great.^9 While a single nurse or doctor can handle minor patients,^5 patients with moderate injuries need either two nurses,^5 or a doctor.^9"},
+"text":"Great.^9 While a single nurse or doctor can handle minor patients,^5 patients with moderate injuries ^6(tinted blue)^6 need either two nurses,^5 or a doctor.^9"},
 {"name":"Luke","portraitType":"right","portrait":"port_luke",
-"text":"Once in awhile we'll get a severe patient.^9 Usually due to their critical condition we'll need at least one nurse to stabilize them and a doctor to help properly treat them.^9 Thankfully the past month has been mostly uneventful --^9 let's hope it stays that way."}]
+"text":"Once in awhile we'll get a severe patient ^6(tinted red).^9 Usually due to their critical condition we'll need at least one nurse to stabilize them and a doctor to help properly treat them.^9 Thankfully the past month has been mostly uneventful --^9 let's hope it stays that way."}]

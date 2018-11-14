@@ -27,8 +27,6 @@ if (global.total == spawnQuantity[global.wave]) {
 	
 	instance_deactivate_all(true);
 	instance_activate_object(control_o);
-	if (room == Hospital_Tutorial)
-		control_o.alarm[3] = 50;
 	global.total = 0;
 	global.wave++;
 	if (global.wave > 3)

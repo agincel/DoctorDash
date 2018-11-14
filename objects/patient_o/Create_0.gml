@@ -44,3 +44,5 @@ heal_countdown = 6;
 heal_capacity = 45;
 heal_timer = 0;
 heal_speed = 0.5;
+
+didInit = false;

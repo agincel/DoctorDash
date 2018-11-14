@@ -35,12 +35,26 @@ if (pause == true){
 	}
 }
 
+if (device_mouse_check_button_pressed(0, mb_left)) {
+	event_user(0);	
+} 
+
 if (end_screen_show[2] == true & will == true && katie == false && (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) || device_mouse_check_button_pressed(0, mb_left))) {
 	nexto = true;
 }
 
+
+
 if (end_screen_show[0]) {
+	depth = -9999;
+	with (queue_o) {
+		active = false;	
+	}
 	cutscene_frame += 0.5;
+	if (cutscene_frame >= sprite_get_number(spr_cutscene) && !alarmEnd) {
+		alarm[0] = 120;
+		alarmEnd = true;
+	}
 	if (cutscene_frame >= sprite_get_number(spr_cutscene))
 		cutscene_frame -= 0.5;	
 }

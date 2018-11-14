@@ -17,6 +17,7 @@ for (var i = 0; i < array_length_1d(stretcher); i++) {
 		
 if (!didSpawn) {
 	global.death_count++;
+	global.total_patients_lost++;
 	global.stretcher_count++;
 	spawnTime = 0;
 	audio_play_sound(Death_Effect_sound, 0, false);
